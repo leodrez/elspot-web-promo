@@ -124,7 +124,7 @@ class App extends Component {
               <p style={{ fontSize: "20px" }}>Win a FREE skate deck</p>
               <p>
                 By subscribing you're automatically participating on a random
-                skate giveaway by the release of the app in July 13. <br /> *Ask
+                skate giveaway by the release of the app in August 17. <br /> *Ask
                 for the inaguration (free-beers)*.
               </p>
             </div>
