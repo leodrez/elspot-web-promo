@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: lato, sans-serif;
+  background-color: #efefef;
+  border-top: 0;
+  border-right: solid 10px #fff;
+  border-left: solid 10px #fff;
+  border-bottom: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    border-right: solid 50px #fff;
+    border-left: solid 50px #fff;
+  }
+}

@@ -1,0 +1,201 @@
+/* big text phone 24
+mid text phone 18
+paragraph text phone 16
+
+big text web 36
+mid text web 20
+paragraph text web 16 */
+
+.App {
+  text-align: center;
+}
+
+.header {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.header p {
+  font-size: 24;
+}
+
+.welcome-pic img {
+  width: 100%;
+  height: auto;
+}
+
+.pattern {
+  margin-top: -5px;
+  height: 10em;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: repeat;
+  animation: moveIt 10s linear infinite;
+}
+
+.inner-pattern {
+  background-color: #010101;
+  width: 15em;
+  height: 3em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.inner-pattern a {
+  font-size: 16px;
+  color: #fff;
+}
+
+.inputs {
+  height: auto;
+  width: 100%;
+}
+
+.inner-input {
+  margin-top: -20px;
+  width: 100%;
+}
+
+.input-field {
+  float: left;
+  width: 90%;
+  height: 2.5em;
+  padding: 0;
+  padding-left: 10px;
+  border: none;
+  margin: 1em;
+  font-size: 16px;
+}
+
+.submit-button {
+  width: 90%;
+  height: 2.5em;
+  border: none;
+  border-radius: none;
+  font-size: 16px;
+  color: #fff;
+  background-color: #010101;
+}
+
+.what-inner {
+  margin: 5em 5em 0 0;
+  padding: 2em;
+  background-color: #fff;
+}
+
+.what-inner p {
+  font-size: 16px;
+}
+
+#pic2 {
+  width: 80%;
+}
+
+.pattern-two {
+  margin: 0 0 0 5em;
+  height: 28em;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: repeat;
+  animation: moveIt 10s linear infinite;
+}
+
+.what-inner-second {
+  margin: 0;
+  padding: 1em;
+  color: #fff;
+  background-color: #010101;
+}
+
+#pic3 {
+  width: 100%;
+}
+
+.footer {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    height: 50px;
+  }
+
+  .header p {
+    font-size: 24px;
+  }
+
+  .welcome-pic img {
+    width: 75%;
+    float: right;
+  }
+
+  .pattern {
+    height: 37em;
+  }
+
+  .inner-pattern {
+    height: 15em;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .inner-pattern a {
+    margin: 0.5em;
+    font-size: 20px;
+  }
+
+  .graphic {
+    margin-top: -1px;
+  }
+
+  .input-field {
+    width: 30%;
+    margin: 0 10em;
+  }
+
+  .submit-button {
+    width: 100%;
+  }
+
+  .body {
+    margin-top: 10em;
+  }
+
+  .what-inner {
+    float: left;
+    width: 40vw;
+    margin: 10em 5em 0 0;
+    padding: 2em;
+    background-color: #fff;
+  }
+
+  #pic2 {
+    width: 60%;
+  }
+
+  .pattern-two {
+    margin: 0 0 0 40em;
+    height: 40em;
+  }
+}
+
+@keyframes moveIt {
+  from {
+    background-position: bottom left;
+  }
+  to {
+    background-position: top right;
+  }
+}
